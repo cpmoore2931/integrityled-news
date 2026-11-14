@@ -1,0 +1,26 @@
+@import "@fontsource/lato/400.css";
+@import "@fontsource/lato/700.css";
+@import "@fontsource/lato/900.css";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/600.css";
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #142030;
+  --color-ink: #1a1a1a;
+  --color-paper: #f7f6f3;
+  --color-card: #ffffff;
+  --color-line: #e4e1db;
+  --color-muted: #5c5a55;
+  --color-brand: #2399d1;
+  --color-brand-ink: #1b7eae;
+  --color-accent: #5bcf8b;
+  --font-display: "Lato", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
